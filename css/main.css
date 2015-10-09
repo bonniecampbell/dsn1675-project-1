@@ -1,0 +1,49 @@
+@-moz-viewport { width: device-width; scale: 1;}
+@-ms-viewport { width: device-width; scale: 1;}
+@-o-viewport { width: device-width; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
+@viewport { width: device-width; scale: 1;}
+
+html {
+  box-sizing: border-box;
+  font-family: 'Molengo', sans-serif;
+}
+*,*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  margin: 0;
+}
+
+header{
+  position: relative;
+}
+
+.photo {
+
+  width: 100%;
+
+}
+
+.contact-info {
+  color: white;
+  margin: 0.5em 1em;
+  font-size: 1.5rem;
+}
+
+.info {
+  color: white;
+  margin: 0;
+  padding-left: 1.5em;
+}
+
+.info p {
+  margin: 0;
+}
+
+.info a {
+  margin: 0;
+  top: 1em;
+}
