@@ -15,6 +15,7 @@ html {
 body {
   background-color: black;
   margin: 0;
+  overflow: hidden;
 }
 
 header{
@@ -24,6 +25,21 @@ header{
 .photo {
 
   width: 100%;
+
+}
+
+header h1 {
+  position: absolute;
+  color: white;
+  top: 1em;
+  padding-left: 1.5rem;
+}
+
+header p {
+  color: white;
+  top: 12rem;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 
 }
 
