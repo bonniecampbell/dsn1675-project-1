@@ -15,7 +15,6 @@ html {
 body {
   background-color: black;
   margin: 0;
-  overflow: hidden;
 }
 
 header{
@@ -33,6 +32,7 @@ header h1 {
   color: white;
   top: 1em;
   padding-left: 1.5rem;
+  font-size: 10vw;
 }
 
 header p {
@@ -43,23 +43,49 @@ header p {
 
 }
 
-.contact-info {
-  color: white;
-  margin: 0.5em 1em;
-  font-size: 1.5rem;
+
+.social-media {
+  overflow: hidden;
+  text-align: center;
 }
 
-.info {
-  color: white;
-  margin: 0;
-  padding-left: 1.5em;
+.social-media a{
+  display: inline-block;
 }
 
-.info p {
-  margin: 0;
+.facebook img {
+  width: 28%;
+  float: left;
+  margin-right: 0.5em;
 }
 
-.info a {
-  margin: 0;
-  top: 1em;
+.instagram img {
+  width: 28%;
+  float: left;
+  margin-right: 0.5em;
+}
+
+
+.pintrest img {
+  width: 28%;
+  float: left;
+  margin-right: 0.5em;
+}
+
+footer img {
+  padding-top: 2em;
+  width: 100%;
+}
+
+footer {
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  color: grey;
+  font-size: 3.5vw;
+  text-align: center;
+  padding-left: 4em;
+  bottom: 3em;
 }
