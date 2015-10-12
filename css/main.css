@@ -43,33 +43,34 @@ header p {
 
 }
 
-
 .social-media {
   overflow: hidden;
   text-align: center;
 }
 
 .social-media a{
-  display: inline-block;
+  display: inline;
+  text-decoration: none;
+
 }
 
 .facebook img {
   width: 28%;
-  float: left;
   margin-right: 0.5em;
+  text-decoration: none;
 }
 
 .instagram img {
   width: 28%;
-  float: left;
   margin-right: 0.5em;
+  text-decoration: none;
 }
 
 
 .pintrest img {
   width: 28%;
-  float: left;
   margin-right: 0.5em;
+  text-decoration: none;
 }
 
 footer img {
