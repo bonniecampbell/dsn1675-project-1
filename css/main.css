@@ -22,9 +22,7 @@ header{
 }
 
 .photo {
-
   width: 100%;
-
 }
 
 header h1 {
@@ -73,6 +71,10 @@ header p {
   text-decoration: none;
 }
 
+.my-work img{
+  width: 100%;
+}
+
 footer img {
   padding-top: 10em;
   width: 100%;
@@ -90,3 +92,178 @@ footer {
   padding-left: 4em;
   bottom: 3em;
 }
+
+@media only screen and (min-width: 37em) {
+
+  .facebook img {
+    width: 15%;
+  }
+
+  .instagram img {
+    width: 15%;
+  }
+
+
+  .pintrest img {
+    width: 15%;
+  }
+
+  .social-media {
+    overflow: hidden;
+    text-align: right;
+  }
+
+  .my-work img{
+    width: 50%;
+  }
+
+  footer img {
+    padding-top: 0;
+  }
+
+  .close {
+    font-size: 2vw;
+    padding-left: 15em;
+    bottom: 0.5em;
+  }
+
+}
+
+@media only screen and (min-width: 50em) {
+
+  header h1 {
+    top: 0;
+    padding-left: 1.5rem;
+    font-size: 8vw;
+  }
+
+  header p {
+    position: absolute;
+    top: 14rem;
+    width: 40%;
+    font-size: 2vw;
+  }
+
+  .facebook img {
+    width: 10%;
+  }
+
+  .instagram img {
+    width: 10%;
+  }
+
+
+  .pintrest img {
+    width: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 56em) {
+
+  header p {
+    top: 15rem;
+  }
+
+}
+
+@media only screen and (min-width: 61em) {
+
+  header p {
+    top: 17rem;
+  }
+
+}
+
+@media only screen and (min-width: 70em) {
+
+  header p {
+    top: 20rem;
+  }
+
+  .my-work img{
+    width: 40%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .facebook img {
+    width: 8%;
+  }
+
+  .instagram img {
+    width: 8%;
+  }
+
+
+  .pintrest img {
+    width: 8%;
+  }
+
+  footer img {
+    padding-top: 0;
+  }
+
+  .close {
+    font-size: 1.5vw;
+    padding-left: 25em;
+    bottom: 2em;
+  }
+
+}
+
+@media only screen and (min-width: 80em) {
+
+  header p {
+    top: 25rem;
+  }
+
+}
+
+@media print {
+
+.photo {
+  display: none;
+}
+
+header h1 {
+  position: static;
+}
+
+  header p {
+  display: none;
+  }
+
+
+  .facebook img {
+    display: none;
+  }
+
+  .instagram img {
+    display: none;
+  }
+
+
+  .pintrest img {
+    display: none;
+  }
+
+  .my-work {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+}
+/*  nav {
+    display: none;
+  }
+
+  main a::after {
+
+    content: " (" attr(href) ")";
+    color: #999;
+  }
+} */
