@@ -226,6 +226,22 @@ footer {
 
 @media print {
 
+  @page {
+    size: landscape; /* Encourage the browser to switch to landscape paper */
+  }
+
+  @page :first {
+    padding-top: 20em;
+  }
+
+  @page :left {
+    margin: 25mm 50mm 25mm;
+  }
+
+  @page :right {
+    margin: 25mm 25mm 25mm 50mm;
+  }
+
 .businesscard {
   display: inline;
   background-color: grey;
