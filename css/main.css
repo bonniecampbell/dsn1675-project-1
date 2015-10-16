@@ -12,6 +12,10 @@ html {
   box-sizing: inherit;
 }
 
+.businesscard {
+  display: none;
+}
+
 body {
   background-color: black;
   margin: 0;
@@ -207,7 +211,7 @@ footer {
   .close {
     font-size: 1.5vw;
     padding-left: 25em;
-    bottom: 2em;
+    bottom: 1em;
   }
 
 }
@@ -221,6 +225,11 @@ footer {
 }
 
 @media print {
+
+.businesscard {
+  display: inline;
+  background-color: grey;
+}
 
 .photo {
   display: none;
