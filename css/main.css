@@ -226,8 +226,17 @@ footer {
 
 @media print {
 
+  body {
+    border: 1px solid #000;
+    width: 3in;
+    height: 1.5in;
+    /* I know the sizes are wrong, but it didn't look right on the print screen as 3 x 2.5 for some reason */
+    padding: 0;
+    margin: 0;
+  }
+
   @page {
-    size: landscape; /* Encourage the browser to switch to landscape paper */
+    size: landscape;
   }
 
   @page :first {
@@ -244,7 +253,7 @@ footer {
 
 .businesscard {
   display: inline;
-  background-color: grey;
+  text-align: center;
 }
 
 .photo {
@@ -282,13 +291,3 @@ header h1 {
   }
 
 }
-/*  nav {
-    display: none;
-  }
-
-  main a::after {
-
-    content: " (" attr(href) ")";
-    color: #999;
-  }
-} */
